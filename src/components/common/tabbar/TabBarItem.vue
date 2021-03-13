@@ -16,35 +16,35 @@
 
 <script>
 export default {
-  name: "TabBarItem",
+  name: 'TabBarItem',
   props: {
     path: {
       type: String,
     },
     activeColor: {
       type: String,
-      default: "red",
+      default: 'red',
     },
   },
   data() {
     return {
       // isActive: true,
-    };
+    }
   },
   methods: {
     itemClick() {
-      this.$router.push(this.path);
+      this.$router.push(this.path)
     },
   },
   computed: {
     isActive() {
-      return this.$route.path.indexOf(this.path) !== -1;
+      return this.$route.path.indexOf(this.path) !== -1
     },
     activeStyle() {
-      return this.isActive ? { color: this.activeColor } : {};
+      return this.isActive ? { color: this.activeColor } : {}
     },
   },
-};
+}
 </script>
 
 <style scoped>

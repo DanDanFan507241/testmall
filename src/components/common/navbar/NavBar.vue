@@ -14,11 +14,11 @@
 
 <script>
 export default {
-  name: "NavBar",
+  name: 'NavBar',
   data() {
-    return {};
+    return {}
   },
-};
+}
 </script>
 
 <style scoped>
@@ -27,7 +27,6 @@ export default {
     height: 44px;
     line-height: 44px;
     text-align: center;
-    color: white;
   }
   .left, .right{
     width: 60px;
