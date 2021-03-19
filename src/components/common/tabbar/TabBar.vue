@@ -6,15 +6,16 @@
 
 <script>
 export default {
-  name: "TabBar",
+  name: 'TabBar',
   data() {
-    return {};
+    return {}
   },
-};
+}
 </script>
 
 <style scoped>
 #tab-bar {
+  height: 49px;
   display: flex;
   position: fixed;
   left: 0;
